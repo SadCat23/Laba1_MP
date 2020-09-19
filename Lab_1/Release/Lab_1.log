@@ -1,15 +1,14 @@
 ﻿  Lab_1.cpp
-c1xx : warning C4199: двухэтапный поиск имен не поддерживается для C++/CLI, C++/CX или OpenMP. Используйте /Zc:twoPhase-
-c:\users\artem\source\repos\lab_1\lab_1.cpp(50): warning C4102: std: неиспользованная метка
-c:\users\artem\source\repos\lab_1\lab_1.cpp(63): warning C4101: k: неиспользованная локальная переменная
-c:\users\artem\source\repos\lab_1\lab_1.cpp(63): warning C4101: j: неиспользованная локальная переменная
-c:\users\artem\source\repos\lab_1\lab_1.cpp(63): warning C4101: i: неиспользованная локальная переменная
-c:\users\artem\source\repos\lab_1\lab_1.cpp(54): warning C4101: k: неиспользованная локальная переменная
-c:\users\artem\source\repos\lab_1\lab_1.cpp(54): warning C4101: i: неиспользованная локальная переменная
-c:\users\artem\source\repos\lab_1\lab_1.cpp(54): warning C4101: j: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(50,4): warning C4102: std: неиспользованная метка
+F:\MP_2020\Lab_1\Lab_1.cpp(63,13): warning C4101: k: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(63,10): warning C4101: j: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(63,7): warning C4101: i: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(54): warning C4101: k: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(54): warning C4101: i: неиспользованная локальная переменная
+F:\MP_2020\Lab_1\Lab_1.cpp(54): warning C4101: j: неиспользованная локальная переменная
   Создание кода
-  4 of 277 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+  5 of 271 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  Lab_1.vcxproj -> C:\Users\Artem\source\repos\Lab_1\Release\Lab_1.exe
+  Lab_1.vcxproj -> F:\MP_2020\Lab_1\Release\Lab_1.exe

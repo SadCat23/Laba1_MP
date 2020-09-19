@@ -1,5 +1,5 @@
 #include "Matrix.h"
-
+#include "windows.h"
 
 
 
@@ -16,8 +16,9 @@ void Matrix::DebugOutpurMatrix()
 
 }
 
-void Matrix::GetRandomMatrixToFile(int M, int N, std::string pathToFile)
+void Matrix::GetRandomMatrixToFile(int M, int N, std::string pathToFile,int maxCount)
 {
+	this->Init(M, N);
 	srand(time(0));
 	this->M = M;
 	this->N = N;
@@ -28,16 +29,12 @@ void Matrix::GetRandomMatrixToFile(int M, int N, std::string pathToFile)
 		matrix[i] = new int[N];
 		for (int j = 0; j < N; j++)
 		{
-			matrix[i][j] = 1 + rand() % 100;
+			matrix[i][j] = 1 + rand() % maxCount;
 		}
 
 	}
-
+	Sleep(100);
 	WriteToFile(pathToFile);
-
-	rand();
-
-
 }
 
 void Matrix::WriteToFile(std::string FilePath)
@@ -46,7 +43,7 @@ void Matrix::WriteToFile(std::string FilePath)
 	out.open(FilePath); // окрываем файл для записи
 	if (out.is_open())
 	{
-		out << N << " " << M << std::endl;
+		out << M << " " << N << std::endl;
 
 		for (int i = 0; i < M; i++)
 		{
@@ -63,9 +60,26 @@ void Matrix::WriteToFile(std::string FilePath)
 
 }
 
+void Matrix::Init(int M, int N)
+{
+	this->M = M;
+	this->N = N;
+	matrix = new int* [M];
+	for (int i = 0; i < M; i++)
+	{
+		matrix[i] = new int[N];
+		for (int j = 0; j < N; j++)
+		{
+			matrix[i][j] = 0;
+		}
+	}
+}
+
 
 void Matrix::GetMatrixFromFile(std::string FilePath)
 {
+
+
 
 	std::string line;
 

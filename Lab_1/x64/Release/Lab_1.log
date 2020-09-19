@@ -1,0 +1,8 @@
+﻿  Lab_1.cpp
+F:\MP_2020\Lab_1\Lab_1.cpp(64,4): warning C4102: std: неиспользованная метка
+  Создание кода
+  3 of 281 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab_1.vcxproj -> F:\MP_2020\Lab_1\x64\Release\Lab_1.exe

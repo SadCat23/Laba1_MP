@@ -1,0 +1,2 @@
+F:\MP_2020\Lab_1\x64\Debug\Lab_1.exe
+F:\MP_2020\Lab_1\x64\Debug\Lab_1.pdb
